@@ -1,5 +1,4 @@
-site_name: Guitar-air
-theme: readthedocs
-
+site_name: guitar-air
 nav:
-- Home: 'index.md'
+    - Home: index.md
+theme: readthedocs
