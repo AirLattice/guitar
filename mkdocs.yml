@@ -1,0 +1,21 @@
+site_name: Guitar-air
+repo_url: https://github.com/airlattice/guitar
+docs_dir: docs
+edit_uri: 'edit/master/Docs/'
+theme: readthedocs
+
+nav:
+- Home: 'index.md'
+- Getting started:
+  - 'Introduction': 'start_introduction.md'
+  - 'Quick start package installation': 'start_quickstart.md'
+- Building CARLA:
+  - 'Linux build': 'build_linux.md'
+  - 'Windows build': 'build_windows.md'
+  - 'Update CARLA': 'build_update.md'
+  - 'Build system': 'build_system.md'
+  - 'CARLA in Docker': 'build_docker.md'
+  - 'F.A.Q.': 'build_faq.md'
+
+markdown_extensions:
+  - admonition
