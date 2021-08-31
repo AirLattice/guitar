@@ -1,10 +1,5 @@
 site_name: Guitar-air
-repo_url: https://github.com/airlattice/guitar
-docs_dir: docs
 theme: readthedocs
 
 nav:
 - Home: 'index.md'
-
-markdown_extensions:
-  - admonition
